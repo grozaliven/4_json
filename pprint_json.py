@@ -1,13 +1,12 @@
 import json
 
-
 def load_data(filepath):
-    pass
-
+    with open(filepath,'r') as myfile:
+        return json.load(myfile)
 
 def pretty_print_json(data):
-    pass
+    for st in data:
+        print(json.dumps(st, indent=4, ensure_ascii=False, sort_keys=True))
 
 
-if __name__ == '__main__':
-    pass
+pretty_print_json(load_data(filepath))
