@@ -1,10 +1,10 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+this script prints your JSON data in pretty readable view. 
+Warning:Indent is 4, ensure_ascii = False
 
 # Quickstart
 
-[TODO]
 
 Example of script launch on Linux, Python 3.5:
 
